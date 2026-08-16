@@ -59,10 +59,7 @@ div span a:hover {
     min-height: 20vh;
 
     background-color: var(--secondary-color);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
+  
 
     --home-title-size: 2em;
 }
@@ -126,11 +123,16 @@ button.contact-button#Contact-button {
 
 footer {
     min-height: 80px;
-    padding: 10px;
-    background-color: var(--text-color);
+    
+    background-image: url(/Day6/images/Untitled\ \(4\).svg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
     color: var(--white-color);
 }
 #footer-heading{
     margin-top: 20px;
-    margin-left: 1100px;
+    margin-left: 900px;
+    color: aliceblue;
 }
